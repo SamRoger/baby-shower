@@ -3,15 +3,14 @@ body {
   padding: 0;
   background-image: url("../img/wood-bg.jpg");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  /*overflow: hidden;*/ }
 
 .chevron-bg {
-  border-radius: 5px;
   position: absolute;
-  left: 38%;
-  margin: 0 auto;
+  left: 40%;
   margin-top: 60px;
-  transform: rotate(4deg);
+  transform: rotate(12deg);
   -webkit-box-shadow: 0 0 20px #000;
   box-shadow: 0 0 10px #000;
   width: 460px;
@@ -22,12 +21,11 @@ body {
   background-color: #e2d7c5; }
 
 .invite-card {
-  border-radius: 5px;
   -webkit-box-shadow: 0 0 20px #000;
   box-shadow: 0 0 20px #000;
-  position: absolute;
-  left: 33%;
-  top: 100px;
+  margin: 0 auto;
+  position: relative;
+  top: 125px;
   width: 450px;
   height: 608px;
   background-image: url("../img/chevron-pattern.png");
@@ -36,14 +34,17 @@ body {
   background-color: #e2d7c5; }
 
 .white-line {
-  margin-top: 43%;
+  margin: 0 auto;
+  position: relative;
+  bottom: 285px;
   width: 450px;
   height: 190px;
   background-color: #fff; }
 
 .orange-dotted {
-  position: absolute;
-  top: 204px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 465px;
   width: 450px;
   height: 170px;
   background-image: url("../img/orange-dotted.jpg");
@@ -52,78 +53,83 @@ body {
   background-color: #e2d7c5; }
 
 .brown-rectangle {
-  margin-top: 24px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 651px;
+  margin-top: 40px;
   width: 450px;
   height: 120px;
   background-color: #a69784; }
 
 .front-plate {
-  display: inline-block;
-  position: absolute;
-  left: 34%;
-  top: 13%;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  text-align: center;
+  position: relative;
+  bottom: 1005px; }
 
 .pumpkin {
-  position: relative;
-  bottom: 450px;
-  right: 190px; }
-
-.little {
-  font-size: 25px;
-  text-shadow: .5px .5px 1px black;
-  position: relative;
-  bottom: 565px;
-  left: 45px;
-  font-family: janda;
-  color: #dc7633; }
-
-.pumpkin-text {
-  color: #ddd5c8;
-  text-shadow: 1px 1px 2px #000;
-  font-size: 40px;
-  font-family: 'Great Vibes', cursive;
-  position: relative;
-  bottom: 610px;
-  left: 60px;
-  letter-spacing: 3px; }
-
-.the-way {
-  letter-spacing: 2px;
-  font-size: 25px;
-  text-shadow: .5px .5px 1px black;
-  position: relative;
-  bottom: 660px;
-  left: 138px;
-  font-family: janda;
-  color: #dc7633; }
-
-.join {
-  /*color: rgb(221, 213, 200  );
-  text-shadow: 1px 1px 2px #000;*/
-  position: relative;
-  bottom: 680px;
-  left: 84px; }
-
-.honor {
-  position: relative;
   text-align: center;
-  bottom: 725px;
-  right: 48px; }
-
-.line {
-  width: 15%;
   position: relative;
-  bottom: 694px;
-  right: 133px; }
+  bottom: 1550px;
+  left: 53%; }
 
-.line2 {
-  width: 15%;
-  position: relative;
-  bottom: 755px;
-  left: 35px; }
+/*.pumpkin-container {
+	text-align: center;
+}
+*/
+/*.little {
+	font-size: 25px;
+	text-shadow: .5px .5px 1px black;
+	position: absolute;
+	bottom: 565px;
+	left: 45px;
+	font-family: janda;
+	color: rgb(220, 118, 51);
+}*/
+/*.pumpkin-text {
+	color: rgb(221, 213, 200  );
+	text-shadow: 1px 1px 2px #000;
+	font-size: 40px;
+	font-family: 'Great Vibes', cursive;
+	position: absolute;
+	bottom: 610px;
+	left: 60px;
+	letter-spacing: 3px;
+}*/
+/*.the-way {
+	letter-spacing: 2px;
+	font-size: 25px;
+	text-shadow: .5px .5px 1px black;
+	position: absolute;
+	bottom: 660px;
+	left: 138px;
+	font-family: janda;
+	color: rgb(220, 118, 51);
+}*/
+/*.join {
 
+	position: absolute;
+	bottom: 680px;
+	left: 84px;
+}
+*/
+/*.honor {
+	position: absolute;
+	text-align: center;
+	bottom: 725px;
+	right: 48px;
+}*/
+/*.line {
+	width: 15%;
+	position: absolute;
+	bottom: 694px;
+	right: 133px;
+}*/
+/*.line2 {
+	width: 15%;
+	position: absolute;
+	bottom: 755px;
+	left: 35px;
+}*/
 @font-face {
   font-family: janda;
   src: url("../fonts/JandaAppleCobbler.ttf"); }
