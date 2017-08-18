@@ -73,35 +73,58 @@ body {
 }
 
 .pumpkin {
-	position: absolute;
+	position: relative;
 	bottom: 450px;
-	left: 240px;
+	right: 190px;
 }
 
-.janda-orange {
-	font-size: 30px;
+.little {
+	font-size: 25px;
 	text-shadow: .5px .5px 1px black;
-	position: absolute;
-	bottom: 450px;
+	position: relative;
+	bottom: 565px;
 	left: 45px;
 	font-family: janda;
 	color: rgb(220, 118, 51);
 }
 
 .pumpkin-text {
-	color: rgb(239, 235, 233);
-	font-family: 'Homemade Apple', cursive;
-	font-size: 30px;
-	text-shadow: 1px 1px 2px black;
-	position: absolute;
-	bottom: 415px;
-	left: 40px;
-	 text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
+	color: rgb(221, 213, 200  );
+	text-shadow: 1px 1px 2px #000;
+	font-size: 40px;
+	font-family: 'Great Vibes', cursive;
+	position: relative;
+	bottom: 610px;
+	left: 60px;
+	letter-spacing: 3px;
 }
+
+.the-way {
+	letter-spacing: 2px;
+	font-size: 25px;
+	text-shadow: .5px .5px 1px black;
+	position: relative;
+	bottom: 660px;
+	left: 138px;
+	font-family: janda;
+	color: rgb(220, 118, 51);
+}
+
+.join {
+	/*color: rgb(221, 213, 200  );
+	text-shadow: 1px 1px 2px #000;*/
+	position: relative;
+	bottom: 680px;
+	left: 84px;
+	/*text-align: center;*/
+}
+
+.honor {
+	position: relative;
+	text-align: center;
+	bottom: 346px;
+}
+
 
 .main-container {
 	
