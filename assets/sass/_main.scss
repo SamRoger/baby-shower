@@ -64,6 +64,7 @@ body {
 }
 
 .front-plate {
+	display: inline-block;
 	position: absolute;
 	left: 34%;
 	top: 13%;
@@ -116,15 +117,28 @@ body {
 	position: relative;
 	bottom: 680px;
 	left: 84px;
-	/*text-align: center;*/
 }
 
 .honor {
 	position: relative;
 	text-align: center;
-	bottom: 346px;
+	bottom: 725px;
+	right: 48px;
 }
 
+.line {
+	width: 15%;
+	position: relative;
+	bottom: 694px;
+	right: 133px;
+}
+
+.line2 {
+	width: 15%;
+	position: relative;
+	bottom: 755px;
+	left: 35px;
+}
 
 .main-container {
 	
