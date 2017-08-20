@@ -1,10 +1,12 @@
 body {
+  overflow: hidden;
+  min-height: 100%;
+  border: 2px solid green;
   margin: 0;
   padding: 0;
   background-image: url("../img/wood-bg.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
-  /*overflow: hidden;*/ }
+  background-repeat: no-repeat; }
 
 .chevron-bg {
   position: absolute;
@@ -69,69 +71,155 @@ body {
 .pumpkin {
   text-align: center;
   position: relative;
-  bottom: 1550px;
-  left: 53%; }
+  bottom: 1846px;
+  left: 615px; }
 
-/*.pumpkin-container {
-	text-align: center;
-}
-*/
-/*.little {
-	font-size: 25px;
-	text-shadow: .5px .5px 1px black;
-	position: absolute;
-	bottom: 565px;
-	left: 45px;
-	font-family: janda;
-	color: rgb(220, 118, 51);
-}*/
-/*.pumpkin-text {
-	color: rgb(221, 213, 200  );
-	text-shadow: 1px 1px 2px #000;
-	font-size: 40px;
-	font-family: 'Great Vibes', cursive;
-	position: absolute;
-	bottom: 610px;
-	left: 60px;
-	letter-spacing: 3px;
-}*/
-/*.the-way {
-	letter-spacing: 2px;
-	font-size: 25px;
-	text-shadow: .5px .5px 1px black;
-	position: absolute;
-	bottom: 660px;
-	left: 138px;
-	font-family: janda;
-	color: rgb(220, 118, 51);
-}*/
-/*.join {
+.card-content {
+  display: inline-block;
+  /*border: 2px solid red;*/
+  position: relative;
+  bottom: 1675px;
+  left: 428px; }
 
-	position: absolute;
-	bottom: 680px;
-	left: 84px;
-}
-*/
-/*.honor {
-	position: absolute;
-	text-align: center;
-	bottom: 725px;
-	right: 48px;
-}*/
-/*.line {
-	width: 15%;
-	position: absolute;
-	bottom: 694px;
-	right: 133px;
-}*/
-/*.line2 {
-	width: 15%;
-	position: absolute;
-	bottom: 755px;
-	left: 35px;
-}*/
 @font-face {
   font-family: janda;
   src: url("../fonts/JandaAppleCobbler.ttf"); }
+.little {
+  position: relative;
+  right: 40px;
+  bottom: 572px;
+  font-size: 25px;
+  text-shadow: .5px .5px 1px black;
+  font-family: janda;
+  color: #dc7633; }
+
+.pumpkin-text {
+  color: #ddd5c8;
+  text-shadow: 1px 1px 2px #000;
+  font-size: 40px;
+  font-family: 'Great Vibes', cursive;
+  position: relative;
+  right: 60px;
+  bottom: 628px;
+  letter-spacing: 4px; }
+
+.the-way {
+  letter-spacing: 2px;
+  font-size: 25px;
+  text-shadow: .5px .5px 1px black;
+  position: relative;
+  bottom: 680px;
+  font-family: janda;
+  color: #dc7633; }
+
+.join {
+  font-family: 'Forum', cursive;
+  color: #a79780;
+  letter-spacing: 1px;
+  font-size: 14px;
+  position: relative;
+  bottom: 707px; }
+
+.line1 {
+  position: relative;
+  left: 93px;
+  bottom: 713px;
+  width: 8%; }
+
+.line2 {
+  position: relative;
+  right: 95px;
+  bottom: 779px;
+  width: 8%; }
+
+.line3 {
+  position: relative;
+  bottom: 927px;
+  width: 23%; }
+
+.line4 {
+  position: relative;
+  bottom: 970px;
+  width: 1%; }
+
+.honor {
+  font-family: 'Forum', cursive;
+  color: #a79780;
+  font-size: 14px;
+  position: relative;
+  bottom: 745px; }
+
+.britt {
+  color: #dc7633;
+  font-size: 29px;
+  /*font-family: 'Berkshire Swash', cursive;*/
+  font-family: 'Great Vibes', cursive;
+  letter-spacing: 1px;
+  position: relative;
+  bottom: 800px; }
+
+.and {
+  color: #a79780;
+  position: relative;
+  /*font-family: 'Berkshire Swash', cursive;*/
+  font-family: 'Great Vibes', cursive;
+  font-size: 29px;
+  bottom: 855px; }
+
+.sam {
+  letter-spacing: 1px;
+  color: #dc7633;
+  position: relative;
+  /*font-family: 'Berkshire Swash', cursive;*/
+  font-family: 'Great Vibes', cursive;
+  font-size: 25px;
+  bottom: 908px; }
+
+.date {
+  position: relative;
+  bottom: 945px; }
+
+.time {
+  position: relative;
+  bottom: 973px; }
+
+.residence {
+  position: relative;
+  bottom: 986px; }
+
+.address {
+  position: relative;
+  bottom: 1016px; }
+
+.rsvp {
+  position: relative;
+  bottom: 1020px; }
+
+.contact {
+  position: relative;
+  bottom: 1048px; }
+
+.registration {
+  position: relative;
+  bottom: 1067px; }
+
+.link {
+  text-decoration: none !important;
+  position: relative;
+  bottom: 1098px; }
+
+.date,
+.time,
+.residence,
+.address,
+.rsvp,
+.contact,
+.registration,
+.link {
+  /*text-shadow: 2px 2px 4px black;*/
+  color: #a79780;
+  font-family: 'Forum', cursive;
+  font-size: 20px;
+  position: relative; }
 
 /*# sourceMappingURL=style.css.map */
