@@ -1,5 +1,5 @@
 body {
-	overflow: hidden;
+	/*overflow: hidden;*/
 	min-height: 100%;
 	border: 2px solid green;
 	margin: 0;
@@ -76,10 +76,9 @@ body {
 }
 
 .pumpkin {
-	text-align: center;
-	position: relative;
-	bottom: 1846px;
-	left: 615px;
+	position: absolute;
+	bottom: 1486px;
+	left: 52%;
 }
 
 .card-content {
@@ -100,14 +99,12 @@ body {
 	right: 40px;
 	bottom: 572px;
 	font-size: 25px;
-	text-shadow: .5px .5px 1px black;
 	font-family: janda;
 	color: rgb(220, 118, 51);
 }
 
 .pumpkin-text {
-	color: rgb(221, 213, 200  );
-	text-shadow: 1px 1px 2px #000;
+	color: rgb(167, 151, 128);	
 	font-size: 40px;
 	font-family: 'Great Vibes', cursive;
 	position: relative;
@@ -119,10 +116,8 @@ body {
 .the-way {
 	letter-spacing: 2px;
 	font-size: 25px;
-	text-shadow: .5px .5px 1px black;
 	position: relative;
 	bottom: 680px;
-
 	font-family: janda;
 	color: rgb(220, 118, 51);
 }
@@ -194,12 +189,9 @@ body {
 
 .sam {
 	letter-spacing: 1px;
-
 	color: rgb(220, 118, 51);
 	position: relative;
-	/*font-family: 'Berkshire Swash', cursive;*/
 	font-family: 'Great Vibes', cursive;
-
 	font-size: 25px;
 	bottom: 908px;
 }
@@ -239,8 +231,9 @@ body {
 	bottom: 1067px;
 }
 
-.link {
-	text-decoration: none !important;
+a {
+
+	text-decoration: none;
 	position: relative;
 	bottom: 1098px;
 }
@@ -260,6 +253,11 @@ body {
 	font-family: 'Forum', cursive;
 	font-size: 20px;
 	position: relative;
+}
+
+.link:hover {
+	color: rgb(220, 118, 51);
+	
 }
 
 

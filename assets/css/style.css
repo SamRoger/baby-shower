@@ -1,5 +1,5 @@
 body {
-  overflow: hidden;
+  /*overflow: hidden;*/
   min-height: 100%;
   border: 2px solid green;
   margin: 0;
@@ -69,10 +69,9 @@ body {
   bottom: 1005px; }
 
 .pumpkin {
-  text-align: center;
-  position: relative;
-  bottom: 1846px;
-  left: 615px; }
+  position: absolute;
+  bottom: 1486px;
+  left: 52%; }
 
 .card-content {
   display: inline-block;
@@ -89,13 +88,11 @@ body {
   right: 40px;
   bottom: 572px;
   font-size: 25px;
-  text-shadow: .5px .5px 1px black;
   font-family: janda;
   color: #dc7633; }
 
 .pumpkin-text {
-  color: #ddd5c8;
-  text-shadow: 1px 1px 2px #000;
+  color: #a79780;
   font-size: 40px;
   font-family: 'Great Vibes', cursive;
   position: relative;
@@ -106,7 +103,6 @@ body {
 .the-way {
   letter-spacing: 2px;
   font-size: 25px;
-  text-shadow: .5px .5px 1px black;
   position: relative;
   bottom: 680px;
   font-family: janda;
@@ -170,7 +166,6 @@ body {
   letter-spacing: 1px;
   color: #dc7633;
   position: relative;
-  /*font-family: 'Berkshire Swash', cursive;*/
   font-family: 'Great Vibes', cursive;
   font-size: 25px;
   bottom: 908px; }
@@ -203,8 +198,8 @@ body {
   position: relative;
   bottom: 1067px; }
 
-.link {
-  text-decoration: none !important;
+a {
+  text-decoration: none;
   position: relative;
   bottom: 1098px; }
 
@@ -221,5 +216,8 @@ body {
   font-family: 'Forum', cursive;
   font-size: 20px;
   position: relative; }
+
+.link:hover {
+  color: #dc7633; }
 
 /*# sourceMappingURL=style.css.map */
