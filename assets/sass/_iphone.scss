@@ -1,0 +1,16 @@
+@media only screen and (min-width: 375px) {
+    .chevron-bg {
+        display: none;
+    }
+    body{}
+    .container{
+    	background-image: url();
+    	-webkit-box-shadow: 0 0 0px #000;
+    box-shadow: 0 0 0px #000;
+    }
+    .invite-card{
+    	width: 375;
+    	height: 667;
+    	position: relative;
+    }
+}
