@@ -236,17 +236,19 @@ a {
     display: none; }
 
   body {
-    overflow: hidden; }
+    /*overflow: hidden;*/
+    height: 1655px; }
 
   .container {
+    border: 3px solid blue;
     position: relative;
     bottom: 50px;
     z-index: 1000;
     -webkit-box-shadow: 0 0 0px #000;
     box-shadow: 0 0 0px #000;
-    height: 1795px;
+    height: 1700px;
     width: 100%;
-    overflow: hidden; }
+    /*overflow: hidden;*/ }
 
   .invite-card {
     margin-top: 450px;
