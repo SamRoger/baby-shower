@@ -261,6 +261,8 @@ a {
     margin-left: 5px; }
 
   .link {
+    font-weight: 900;
+    color: #dc7633;
     font-size: 14px; }
 
   .address {
