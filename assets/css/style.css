@@ -237,6 +237,7 @@ a {
     border: 2px solid red; }
 
   .container {
+    overflow: hidden;
     position: relative;
     z-index: 1000;
     -webkit-box-shadow: 0 0 0px #000;
