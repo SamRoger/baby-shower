@@ -234,7 +234,7 @@ a {
     display: none; }
 
   body {
-    border: 2px solid red; }
+    overflow: hidden; }
 
   .container {
     position: relative;
