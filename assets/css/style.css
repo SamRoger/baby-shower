@@ -238,6 +238,7 @@ a {
 
   .container {
     position: relative;
+    bottom: 50px;
     z-index: 1000;
     -webkit-box-shadow: 0 0 0px #000;
     box-shadow: 0 0 0px #000;
