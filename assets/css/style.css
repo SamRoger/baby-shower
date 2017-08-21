@@ -1,7 +1,5 @@
 body {
-  /*overflow: hidden;*/
   margin: 0;
-  padding: 0;
   background-color: #e2d7c5; }
 
 .container {
@@ -13,7 +11,7 @@ body {
   margin: 0 auto;
   width: 75%;
   height: 740px;
-  /*overflow: hidden;*/ }
+  overflow: hidden; }
 
 .chevron-bg {
   position: absolute;
@@ -231,18 +229,29 @@ a {
 .link {
   display: inline; }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   .chevron-bg {
     display: none; }
 
+  body {
+    border: 2px solid red; }
+
   .container {
-    background-image: url();
+    position: relative;
+    z-index: 1000;
     -webkit-box-shadow: 0 0 0px #000;
-    box-shadow: 0 0 0px #000; }
+    box-shadow: 0 0 0px #000;
+    height: 1750px;
+    width: 100%; }
 
   .invite-card {
-    width: 375;
-    height: 667;
-    position: relative; } }
+    margin-top: 450px;
+    transform: scale(2.3); }
+
+  .white-line,
+  .orange-dotted,
+  .brown-rectangle,
+  .front-plate {
+    transform: scale(2.3); } }
 
 /*# sourceMappingURL=style.css.map */
