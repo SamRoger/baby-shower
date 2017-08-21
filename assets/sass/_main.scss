@@ -1,17 +1,28 @@
 body {
-	overflow: hidden;
-	min-height: 100%;
-	border: 2px solid green;
+	/*overflow: hidden;*/
 	margin: 0;
 	padding: 0;
+	background-color: rgb(226, 215, 197);
+
+	
+}
+
+.container {
+		-webkit-box-shadow: 0 0 20px #000;
+    box-shadow: 0 0 10px #000;
 	background-image: url("../img/wood-bg.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	margin: 0 auto;
+	width: 75%;
+	height: 740px;
+	/*overflow: hidden;*/
 }
 
 .chevron-bg {
 	position: absolute;
 	left: 40%;
+	bottom: 50px;
 	margin-top: 60px;
 	transform: rotate(12deg);
 	-webkit-box-shadow: 0 0 20px #000;
@@ -29,7 +40,7 @@ body {
     box-shadow: 0 0 20px #000;
 	margin: 0 auto;
 	position: relative;
-	top: 125px;
+	top: 115px;
 	width: 450px;
 	height: 608px;
 	background-image: url("../img/chevron-pattern.png");
@@ -70,14 +81,16 @@ body {
 }
 
 .front-plate {
+
 	text-align: center;
 	position: relative;
 	bottom: 1005px;
+	height: 600px;
 }
 
 .pumpkin {
 	position: absolute;
-	bottom: 1486px;
+	bottom: 465px;
 	left: 52%;
 }
 
@@ -247,8 +260,6 @@ a {
 .contact, 
 .registration,
 .link {
-
-	/*text-shadow: 2px 2px 4px black;*/
 	color: rgb(167, 151, 128);
 	font-family: 'Forum', cursive;
 	font-size: 20px;
@@ -258,6 +269,10 @@ a {
 .link:hover {
 	color: rgb(220, 118, 51);
 	
+}
+
+.link{
+	display: inline;
 }
 
 
