@@ -14,7 +14,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 		z-index: 1000;
     	-webkit-box-shadow: 0 0 0px #000;
     	box-shadow: 0 0 0px #000;
-    	height: 1750px;
+    	height: 1700px;
     	width: 100%;
     }
     .invite-card{
@@ -28,6 +28,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .front-plate{
 		margin-right: 18px;
     	transform: scale(2.3);
+    }
+
+    .pumpkin{
+    	margin-left: 10px;
     }
 }
 
