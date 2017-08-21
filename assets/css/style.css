@@ -256,6 +256,9 @@ a {
     transform: scale(2.3); }
 
   .pumpkin {
-    margin-left: 10px; } }
+    margin-left: 10px; }
+
+  .link {
+    font-size: 16px; } }
 
 /*# sourceMappingURL=style.css.map */
