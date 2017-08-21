@@ -254,6 +254,7 @@ a {
   .orange-dotted,
   .brown-rectangle,
   .front-plate {
+    width: 100%;
     transform: scale(2.3); }
 
   .pumpkin {
