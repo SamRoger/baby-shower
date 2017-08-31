@@ -1,10 +1,95 @@
 html {
+<<<<<<< HEAD
   width: 100%;
   height: 100%; }
+=======
+  min-height: 100%;
+  width: 100%; }
+>>>>>>> 386d4065947033202e30848644ba0bd2a3b99274
 
 body {
+  width: 100%;
+  min-height: 100%;
   margin: 0;
+  padding: 0;
+  background-image: url("../img/wood-bg.jpg");
+  background-size: cover;
+  background-color: #e2d7c5;
+  overflow: hidden; }
+
+.chevron-bg {
+  margin: 0 auto;
+  position: relative;
+  margin: 0 auto;
+  top: 5%;
+  z-index: -1;
+  transform: rotate(12deg);
+  -webkit-box-shadow: 0 0 20px #000;
+  box-shadow: 0 0 10px #000;
+  /*width: 100%;*/
+  /*height: 100%;*/
+  background-image: url("../img/chevron-pattern.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.invite-card {
+  margin: 0 auto;
+  z-index: 1;
+  -webkit-box-shadow: 0 0 20px #000;
+  box-shadow: 0 0 20px #000;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/chevron-pattern.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #e2d7c5; }
+
+.white-line {
+  z-index: 2;
+  margin: 0 auto;
+  position: relative;
+  top: 34%;
+  width: 100%;
+  height: 33%;
+  background-color: #fff; }
+
+.orange-dotted {
+  z-index: 2;
+  position: relative;
+  top: 5%;
+  width: 100%;
+  height: 90%;
+  background-image: url("../img/orange-dotted.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #e2d7c5; }
+
+.brown-rectangle {
+  z-index: 3;
+  position: relative;
+  top: 11%;
+  width: 100%;
+  height: 75%;
+  background-color: #a69784; }
+
+.no-front-plate {
+  display: none; }
+
+.front-plate-cont {
+  margin: 0 auto;
+  background-image: url("../img/front-plate.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  bottom: 31%;
+  z-index: 4;
+  width: 92%;
+  min-height: 100%; }
+
+.front-plate {
+  /*    width: 100%;
+      height: 100%;*/ }
 
 .container {
   -webkit-box-shadow: 0 0 20px #000;
@@ -86,7 +171,6 @@ body {
 
 .card-content {
   display: inline-block;
-  /*border: 2px solid red;*/
   position: relative;
   bottom: 1675px;
   left: 428px; }
@@ -159,7 +243,6 @@ body {
 .britt {
   color: #dc7633;
   font-size: 29px;
-  /*font-family: 'Berkshire Swash', cursive;*/
   font-family: 'Great Vibes', cursive;
   letter-spacing: 1px;
   position: relative;
@@ -168,7 +251,6 @@ body {
 .and {
   color: #a79780;
   position: relative;
-  /*font-family: 'Berkshire Swash', cursive;*/
   font-family: 'Great Vibes', cursive;
   font-size: 29px;
   bottom: 855px; }
@@ -236,42 +318,79 @@ a {
   display: inline; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  body, html {
+    overflow: hidden;
+    bottom: 0; }
+
   .chevron-bg {
+    width: 100%;
     display: none; }
 
+<<<<<<< HEAD
   body {
     height: 1655px; }
 
   .container {
     border: 3px solid blue;
-    position: relative;
-    bottom: 50px;
-    z-index: 1000;
-    -webkit-box-shadow: 0 0 0px #000;
-    box-shadow: 0 0 0px #000;
-    height: 1700px;
-    width: 100%;
-    /*overflow: hidden;*/ }
-
+=======
   .invite-card {
-    margin-top: 450px;
-    transform: scale(2.5); }
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+    min-height: 90%;
+    width: 100%; }
 
-  .white-line,
-  .orange-dotted,
-  .brown-rectangle,
-  .front-plate {
+  .white-line {
+    z-index: 2;
+    margin: 0 auto;
+>>>>>>> 386d4065947033202e30848644ba0bd2a3b99274
+    position: relative;
+    top: 30%;
     width: 100%;
-    transform: scale(2.5); }
+    height: 33%;
+    background-color: #fff; }
 
-  .pumpkin {
-    margin-left: 5px; }
+  .orange-dotted {
+    z-index: 2;
+    position: relative;
+    top: 5%;
+    width: 100%;
+    height: 90%;
+    background-image: url("../img/orange-dotted.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #e2d7c5; }
 
-  .link {
-    font-weight: 900;
-    color: #dc7633;
-    font-size: 14px; }
+  .brown-rectangle {
+    z-index: 3;
+    position: relative;
+    top: 11%;
+    width: 100%;
+    height: 75%;
+    background-color: #a69784; }
 
+  .mobile-front-plate {
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+    width: 100%;
+    height: 100%; }
+
+  .front-plate-cont {
+    display: none; }
+
+  /*  .front-plate {
+        width: 100%;
+        height: 100%;
+
+    }*/ }
+/*@media only screen 
+and (min-device-width: 768) 
+and (-webkit-min-device-pixel-ratio: 2) {
+	
+	
+
+<<<<<<< HEAD
   .address, .contact {
     font-size: 16px; } }
 @media only screen and (max-device-width: 1031px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -290,5 +409,8 @@ a {
     	background-repeat: no-repeat;
     	background-size: cover;
     	background-color: rgb(226, 215, 197);*/ } }
+=======
+}*/
+>>>>>>> 386d4065947033202e30848644ba0bd2a3b99274
 
 /*# sourceMappingURL=style.css.map */
