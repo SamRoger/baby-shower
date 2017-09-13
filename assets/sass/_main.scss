@@ -1,413 +1,291 @@
-html {
-<<<<<<< HEAD
+html, body{
+	min-height: 100%;
 	width: 100%;
-	height: 100%;
 }
 
-=======
-	min-height: 100%;
-	width: 100%;
-}
->>>>>>> 386d4065947033202e30848644ba0bd2a3b99274
-body {
-	width: 100%;
-	min-height: 100%;
+body{
 	margin: 0;
-	padding: 0;
-	background-image: url("../img/wood-bg.jpg");
-    background-size: cover;
-	background-color: rgb(226, 215, 197);	
-	overflow: hidden;
-}
-
-.chevron-bg {
-	margin: 0 auto;
-	position: relative;
-	margin: 0 auto;
-	top: 5%;
-	z-index: -1;
-	transform: rotate(12deg);
-	-webkit-box-shadow: 0 0 20px #000;
-    box-shadow: 0 0 10px #000;
-	/*width: 100%;*/
-	/*height: 100%;*/
-	background-image: url("../img/chevron-pattern.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-
-}
-
-.invite-card {
-	margin: 0 auto;
-	z-index: 1;
-	-webkit-box-shadow: 0 0 20px #000;
-    box-shadow: 0 0 20px #000;
-	position: relative;
 	width: 100%;
 	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-image: url("../img/wood-bg.jpg");
+}
+
+.background1{
+	transform: rotate(12deg);
+	position: relative;
+	top: 70px;
+	margin: 0 auto;
+	-webkit-box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 10px #000;
+	width: 450px;
+	height: 625px;
+	background-image: url("../img/chevron-pattern.png")
+}
+
+.background2{
+	position: absolute;
+	left: 30%;
+	top: 70px;
+	-webkit-box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 10px #000;
+	width: 450px;
+	height: 625px;
 	background-image: url("../img/chevron-pattern.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: rgb(226, 215, 197);
 }
 
-.white-line {
-	z-index: 2;
-	margin: 0 auto;
-	position: relative;
-	top: 34%;
+.white-board{
 	width: 100%;
-	height: 33%;
-	background-color: #fff;
-}
-
-.orange-dotted {
-	z-index: 2;
-	position: relative;
-	top: 5%;
-	width: 100%;
-	height: 90%;
-	background-image: url("../img/orange-dotted.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: rgb(226, 215, 197);
-}
-
-.brown-rectangle {
-	z-index: 3;
-	position: relative;
-	top: 11%;
-	width: 100%;
-	height: 75%;
-	background-color:rgb(166, 151, 132);
-}
-
-.no-front-plate {
-	display: none;
-}
-
-.front-plate-cont {
-	margin: 0 auto;
-	background-image: url("../img/front-plate.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    top: 31%;
+    height: 192px;
+    background-color: #fff;
     position: relative;
-    bottom: 31%;
-    z-index: 4;
-    width: 92%;
-    min-height: 100%;
 }
 
-.front-plate {
-/*    width: 100%;
-    height: 100%;*/
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.container {
-	-webkit-box-shadow: 0 0 20px #000;
-    box-shadow: 0 0 10px #000;
-	background-image: url("../img/wood-bg.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin: 0 auto;
-	width: 75%;
-	height: 100%;
-	overflow: hidden;
-}
-
-.chevron-bg {
-	position: absolute;
-	left: 40%;
-	bottom: 0;
-	/*margin-top: 60px;*/
-	transform: rotate(12deg);
-	-webkit-box-shadow: 0 0 20px #000;
-    box-shadow: 0 0 10px #000;
-	width: 40%;
-	height: 650px;
-	background-image: url("../img/chevron-pattern.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: rgb(226, 215, 197);
-}
-
-.invite-card {
-	-webkit-box-shadow: 0 0 20px #000;
-    box-shadow: 0 0 20px #000;
-	margin: 0 auto;
+.orange-dots{
 	position: relative;
-	top: 115px;
-	width: 50%;
-	height: 608px;
-	background-image: url("../img/chevron-pattern.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: rgb(226, 215, 197);
-}
-
-.white-line {
-	margin: 0 auto;
-	position: relative;
-	bottom: 285px;
-	width: 50%;
-	height: 190px;
-	background-color: #fff;
-}
-
-.orange-dotted {
-	margin: 0 auto;
-	position: relative;
-	bottom: 465px;
-	width: 50%;
-	height: 170px;
+    top: 7%;
+    height: 166px;
+    width: 100%;
 	background-image: url("../img/orange-dotted.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: rgb(226, 215, 197);
 }
 
-.brown-rectangle {
-	margin: 0 auto;
+.brown-board{
 	position: relative;
-	bottom: 651px;
-	margin-top: 40px;
-	width: 50%;
-	height: 120px;
-	background-color:rgb(166, 151, 132);
+    top: 12%;
+    height: 124px;
+    width: 100%;
+    background-color: #a89680;
 }
 
-.front-plate {
-
-	text-align: center;
-	position: relative;
-	bottom: 1005px;
-	height: 600px;
-}
-
-.pumpkin {
+.border{
 	position: absolute;
-	bottom: 465px;
-	left: 52%;
+	left: 5%;
+	z-index: 1;
+	width: 90%;
+	height: 100%;
 }
 
-.card-content {
-	display: inline-block;
-
-	position: relative;
-	bottom: 1675px;
-	left: 428px;
+.wreath{
+	position: absolute;
+	z-index: 100;
+	width: 25%;
+	height: 15%;
+	background-image: url("...img/wreath.png");
 }
 
 @font-face {
-   font-family: janda;
-   src: url("../fonts/JandaAppleCobbler.ttf");
+ font-family: "janda";
+ src: url("../fonts/jandaAppleCobbler.ttf");
 }
 
-.little {
-	position: relative;
-	right: 40px;
-	bottom: 572px;
-	font-size: 25px;
+.little{
+	color: rgb(249,106,5);
+	display: inline;
+    font-family: janda;
+    position: absolute;
+    top: 8%;
+    z-index: 10;
+    font-size: 27px;
+    left: 16%;
+}
+
+.pumpkin-logo{
+	position: absolute;
+    top: 8%;
+    left: 62%;
+    z-index: 1;
+    width: 19%;
+    height: 14%;
+}
+
+.pumpkin-text{
+	font-family: 'Great Vibes', cursive;
+    display: inline;
+    position: absolute;
+    top: 15%;
+    z-index: 10;
+    font-size: 48px;
+    left: 19%;
+    letter-spacing: 4px;
+}
+
+.the-way{
+	color: rgb(249,106,5);
 	font-family: janda;
-	color: rgb(220, 118, 51);
+    display: inline;
+    position: absolute;
+    top: 22%;
+    z-index: 10;
+    font-size: 31px;
+    left: 32%;
 }
 
-.pumpkin-text {
-	color: rgb(167, 151, 128);	
+.join{
+	display: inline;
+    position: absolute;
+    top: 32%;
+    z-index: 10;
+    font-size: 15px;
+    left: 19%;
+}
+
+.honoring{
+	text-align: center;
+    position: relative;
+    z-index: 10;
+    top: 35%;
+}
+
+.line1{
+	position: absolute;
+    z-index: 10;
+    width: 18%;
+    top: 35%;
+    left: 20%;
+}
+
+.line2{
+	position: absolute;
+    z-index: 10;
+    width: 18%;
+    top: 35%;
+    left: 61%;
+}
+
+.sam,
+.britt{
+	color: rgb(249,106,5);
+	font-family: 'Great Vibes', cursive;
+	position: absolute;
+	z-index: 10;
 	font-size: 40px;
-	font-family: 'Great Vibes', cursive;
-	position: relative;
-	right: 60px;
-	bottom: 628px;
-	letter-spacing: 4px;
 }
 
-.the-way {
-	letter-spacing: 2px;
-	font-size: 25px;
-	position: relative;
-	bottom: 680px;
-	font-family: janda;
-	color: rgb(220, 118, 51);
+.sam{
+	left: 25%;
+    top: 50%;
 }
 
-.join {
-	font-family: 'Forum', cursive;
-	color: rgb(167, 151, 128);	
-	letter-spacing: 1px;
-	font-size: 14px;
-	position: relative;
-	bottom: 707px;
+.britt{
+	left: 22%;
+    top: 38%;
 }
 
-.line1 {
-	position: relative;
-	left: 93px;
-	bottom: 713px;
-
-	width: 8%;
-}
-.line2 {
-	position: relative;
-	right: 95px;
-	bottom: 779px;
-	width: 8%;
+.and{
+	top: 45%;
+    z-index: 10;
+    position: absolute;
+    left: 49%;
+    font-size: 30px;
+    font-family: 'Great Vibes', cursive;
+    display: inline;
 }
 
-.line3 {
-	position: relative;
-	bottom: 927px;
-	width: 23%;
-}
-
-.line4 {
-	position: relative;
-	bottom: 970px;
-	width: 1%;
-}
-
-.honor {
-	font-family: 'Forum', cursive;
-	color: rgb(167, 151, 128);
-	font-size: 14px;
-	position: relative;
-	bottom: 745px;
-
-}
-
-.britt {
-	color: rgb(220, 118, 51);
-	font-size: 29px;
-
-	font-family: 'Great Vibes', cursive;
-	letter-spacing: 1px;
-
-	position: relative; 
-	bottom: 800px;
-}
-
-.and {
-	color: rgb(167, 151, 128);
-	position: relative;
-
-	font-family: 'Great Vibes', cursive;
-
-	font-size: 29px;
-	bottom: 855px;
-}
-
-.sam {
-	letter-spacing: 1px;
-	color: rgb(220, 118, 51);
-	position: relative;
-	font-family: 'Great Vibes', cursive;
-	font-size: 25px;
-	bottom: 908px;
-}
-
-.date {
-	position: relative;
-	bottom: 945px;
-}
-
-.time {
-	position: relative;
-	bottom: 973px;
-}
-
-.residence {
-	position: relative;
-	bottom: 986px;
-}
-
-.address {
-	position: relative;
-	bottom: 1016px;
-}
-
-.rsvp {
-	position: relative;
-	bottom: 1020px;
-}
-
-.contact {
-	position: relative;
-	bottom: 1048px;
-}
-
-.registration {
-	position: relative;
-	bottom: 1067px;
-}
-
-a {
-
-	text-decoration: none;
-	position: relative;
-	bottom: 1098px;
-}
-
-
-.date, 
-.time, 
-.residence, 
-.address, 
-.rsvp, 
-.contact, 
-.registration,
-.link {
-	color: rgb(167, 151, 128);
-	font-family: 'Forum', cursive;
-	font-size: 20px;
-	position: relative;
-}
-
-.link:hover {
-	color: rgb(220, 118, 51);	
-	
-}
-
-.link{
-	position: relative;
-	top: 30px;
+.date,
+.time{
+	position: absolute;
+	z-index: 10;
 	display: inline;
 }
+
+.date{
+	font-size: 19px;
+	left: 23%;
+    top: 58%;
+}
+
+.time{
+	font-size: 18px;
+	left: 35%;
+    top: 61%;
+}
+
+.where,
+.address{
+	position: absolute;
+	z-index: 10;
+	display: inline;
+}
+
+.where{
+	font-size: 19px;
+	left: 28%;
+    top: 66%;
+}
+
+.address{
+	font-size: 18px;
+	left: 16%;
+    top: 69%;
+}
+
+.rsvp,
+.contact{
+	position: absolute;
+	z-index: 10;
+	display: inline;
+}
+
+.rsvp{
+	font-size: 19px;
+	left: 25%;
+    top: 74%;
+}
+
+.contact{
+	font-size: 18px;
+	left: 15%;
+    top: 77%;
+}
+
+.registry,
+.amazon{
+	position: absolute;
+	z-index: 10;
+	display: inline;
+}
+
+.registry{
+	font-size: 19px;
+	left: 32%;
+    top: 82%;
+}
+
+.amazon{
+	color: rgb(249,106,5);
+	text-decoration: none;
+	font-size: 18px;
+	left: 30%;
+    top: 86%;
+    &:hover{
+    	cursor: pointer;
+		color: rgb(97, 97, 97);
+		animation: fadeAmazon 1s forwards;
+    }
+}
+
+.pumpkin-text,
+.join,
+.honoring,
+.and,
+.date,
+.time,
+.where,
+.address,
+.rsvp,
+.contact,
+.registry,
+{
+	color: rgb(97, 97, 97);
+}
+
+
+
+
+
+
 
 
 

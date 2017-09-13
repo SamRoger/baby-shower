@@ -1,416 +1,364 @@
-html {
-<<<<<<< HEAD
-  width: 100%;
-  height: 100%; }
-=======
+@keyframes fadeAmazon {
+  from {
+    color: #f96a05; }
+  to {
+    color: #ddd5c8; } }
+html, body {
   min-height: 100%;
   width: 100%; }
->>>>>>> 386d4065947033202e30848644ba0bd2a3b99274
 
 body {
-  width: 100%;
-  min-height: 100%;
   margin: 0;
-  padding: 0;
-  background-image: url("../img/wood-bg.jpg");
+  width: 100%;
+  height: 100%;
   background-size: cover;
-  background-color: #e2d7c5;
-  overflow: hidden; }
+  background-position: center;
+  background-image: url("../img/wood-bg.jpg"); }
 
-.chevron-bg {
-  margin: 0 auto;
-  position: relative;
-  margin: 0 auto;
-  top: 5%;
-  z-index: -1;
+.background1 {
   transform: rotate(12deg);
-  -webkit-box-shadow: 0 0 20px #000;
-  box-shadow: 0 0 10px #000;
-  /*width: 100%;*/
-  /*height: 100%;*/
-  background-image: url("../img/chevron-pattern.png");
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.invite-card {
+  position: relative;
+  top: 70px;
   margin: 0 auto;
+  -webkit-box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 10px #000;
+  width: 450px;
+  height: 625px;
+  background-image: url("../img/chevron-pattern.png"); }
+
+.background2 {
+  position: absolute;
+  left: 30%;
+  top: 70px;
+  -webkit-box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 10px #000;
+  width: 450px;
+  height: 625px;
+  background-image: url("../img/chevron-pattern.png"); }
+
+.white-board {
+  width: 100%;
+  top: 31%;
+  height: 192px;
+  background-color: #fff;
+  position: relative; }
+
+.orange-dots {
+  position: relative;
+  top: 7%;
+  height: 166px;
+  width: 100%;
+  background-image: url("../img/orange-dotted.jpg"); }
+
+.brown-board {
+  position: relative;
+  top: 12%;
+  height: 124px;
+  width: 100%;
+  background-color: #a89680; }
+
+.border {
+  position: absolute;
+  left: 5%;
   z-index: 1;
-  -webkit-box-shadow: 0 0 20px #000;
-  box-shadow: 0 0 20px #000;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background-image: url("../img/chevron-pattern.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #e2d7c5; }
+  width: 90%;
+  height: 100%; }
 
-.white-line {
-  z-index: 2;
-  margin: 0 auto;
-  position: relative;
-  top: 34%;
-  width: 100%;
-  height: 33%;
-  background-color: #fff; }
-
-.orange-dotted {
-  z-index: 2;
-  position: relative;
-  top: 5%;
-  width: 100%;
-  height: 90%;
-  background-image: url("../img/orange-dotted.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #e2d7c5; }
-
-.brown-rectangle {
-  z-index: 3;
-  position: relative;
-  top: 11%;
-  width: 100%;
-  height: 75%;
-  background-color: #a69784; }
-
-.no-front-plate {
-  display: none; }
-
-.front-plate-cont {
-  margin: 0 auto;
-  background-image: url("../img/front-plate.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  bottom: 31%;
-  z-index: 4;
-  width: 92%;
-  min-height: 100%; }
-
-.front-plate {
-  /*    width: 100%;
-      height: 100%;*/ }
-
-.container {
-  -webkit-box-shadow: 0 0 20px #000;
-  box-shadow: 0 0 10px #000;
-  background-image: url("../img/wood-bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0 auto;
-  width: 75%;
-  height: 100%;
-  overflow: hidden; }
-
-.chevron-bg {
+.wreath {
   position: absolute;
-  left: 40%;
-  bottom: 0;
-  /*margin-top: 60px;*/
-  transform: rotate(12deg);
-  -webkit-box-shadow: 0 0 20px #000;
-  box-shadow: 0 0 10px #000;
-  width: 40%;
-  height: 650px;
-  background-image: url("../img/chevron-pattern.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #e2d7c5; }
-
-.invite-card {
-  -webkit-box-shadow: 0 0 20px #000;
-  box-shadow: 0 0 20px #000;
-  margin: 0 auto;
-  position: relative;
-  top: 115px;
-  width: 50%;
-  height: 608px;
-  background-image: url("../img/chevron-pattern.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #e2d7c5; }
-
-.white-line {
-  margin: 0 auto;
-  position: relative;
-  bottom: 285px;
-  width: 50%;
-  height: 190px;
-  background-color: #fff; }
-
-.orange-dotted {
-  margin: 0 auto;
-  position: relative;
-  bottom: 465px;
-  width: 50%;
-  height: 170px;
-  background-image: url("../img/orange-dotted.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #e2d7c5; }
-
-.brown-rectangle {
-  margin: 0 auto;
-  position: relative;
-  bottom: 651px;
-  margin-top: 40px;
-  width: 50%;
-  height: 120px;
-  background-color: #a69784; }
-
-.front-plate {
-  text-align: center;
-  position: relative;
-  bottom: 1005px;
-  height: 600px; }
-
-.pumpkin {
-  position: absolute;
-  bottom: 465px;
-  left: 52%; }
-
-.card-content {
-  display: inline-block;
-  position: relative;
-  bottom: 1675px;
-  left: 428px; }
+  z-index: 100;
+  width: 25%;
+  height: 15%;
+  background-image: url("...img/wreath.png"); }
 
 @font-face {
-  font-family: janda;
-  src: url("../fonts/JandaAppleCobbler.ttf"); }
+  font-family: "janda";
+  src: url("../fonts/jandaAppleCobbler.ttf"); }
 .little {
-  position: relative;
-  right: 40px;
-  bottom: 572px;
-  font-size: 25px;
+  color: #f96a05;
+  display: inline;
   font-family: janda;
-  color: #dc7633; }
+  position: absolute;
+  top: 8%;
+  z-index: 10;
+  font-size: 27px;
+  left: 16%; }
+
+.pumpkin-logo {
+  position: absolute;
+  top: 8%;
+  left: 62%;
+  z-index: 1;
+  width: 19%;
+  height: 14%; }
 
 .pumpkin-text {
-  color: #a79780;
-  font-size: 40px;
   font-family: 'Great Vibes', cursive;
-  position: relative;
-  right: 60px;
-  bottom: 628px;
+  display: inline;
+  position: absolute;
+  top: 15%;
+  z-index: 10;
+  font-size: 48px;
+  left: 19%;
   letter-spacing: 4px; }
 
 .the-way {
-  letter-spacing: 2px;
-  font-size: 25px;
-  position: relative;
-  bottom: 680px;
+  color: #f96a05;
   font-family: janda;
-  color: #dc7633; }
+  display: inline;
+  position: absolute;
+  top: 22%;
+  z-index: 10;
+  font-size: 31px;
+  left: 32%; }
 
 .join {
-  font-family: 'Forum', cursive;
-  color: #a79780;
-  letter-spacing: 1px;
-  font-size: 14px;
+  display: inline;
+  position: absolute;
+  top: 32%;
+  z-index: 10;
+  font-size: 15px;
+  left: 19%; }
+
+.honoring {
+  text-align: center;
   position: relative;
-  bottom: 707px; }
+  z-index: 10;
+  top: 35%; }
 
 .line1 {
-  position: relative;
-  left: 93px;
-  bottom: 713px;
-  width: 8%; }
+  position: absolute;
+  z-index: 10;
+  width: 18%;
+  top: 35%;
+  left: 20%; }
 
 .line2 {
-  position: relative;
-  right: 95px;
-  bottom: 779px;
-  width: 8%; }
+  position: absolute;
+  z-index: 10;
+  width: 18%;
+  top: 35%;
+  left: 61%; }
 
-.line3 {
-  position: relative;
-  bottom: 927px;
-  width: 23%; }
-
-.line4 {
-  position: relative;
-  bottom: 970px;
-  width: 1%; }
-
-.honor {
-  font-family: 'Forum', cursive;
-  color: #a79780;
-  font-size: 14px;
-  position: relative;
-  bottom: 745px; }
-
+.sam,
 .britt {
-  color: #dc7633;
-  font-size: 29px;
+  color: #f96a05;
   font-family: 'Great Vibes', cursive;
-  letter-spacing: 1px;
-  position: relative;
-  bottom: 800px; }
-
-.and {
-  color: #a79780;
-  position: relative;
-  font-family: 'Great Vibes', cursive;
-  font-size: 29px;
-  bottom: 855px; }
+  position: absolute;
+  z-index: 10;
+  font-size: 40px; }
 
 .sam {
-  letter-spacing: 1px;
-  color: #dc7633;
-  position: relative;
+  left: 25%;
+  top: 50%; }
+
+.britt {
+  left: 22%;
+  top: 38%; }
+
+.and {
+  top: 45%;
+  z-index: 10;
+  position: absolute;
+  left: 49%;
+  font-size: 30px;
   font-family: 'Great Vibes', cursive;
-  font-size: 25px;
-  bottom: 908px; }
-
-.date {
-  position: relative;
-  bottom: 945px; }
-
-.time {
-  position: relative;
-  bottom: 973px; }
-
-.residence {
-  position: relative;
-  bottom: 986px; }
-
-.address {
-  position: relative;
-  bottom: 1016px; }
-
-.rsvp {
-  position: relative;
-  bottom: 1020px; }
-
-.contact {
-  position: relative;
-  bottom: 1048px; }
-
-.registration {
-  position: relative;
-  bottom: 1067px; }
-
-a {
-  text-decoration: none;
-  position: relative;
-  bottom: 1098px; }
+  display: inline; }
 
 .date,
+.time {
+  position: absolute;
+  z-index: 10;
+  display: inline; }
+
+.date {
+  font-size: 19px;
+  left: 23%;
+  top: 58%; }
+
+.time {
+  font-size: 18px;
+  left: 35%;
+  top: 61%; }
+
+.where,
+.address {
+  position: absolute;
+  z-index: 10;
+  display: inline; }
+
+.where {
+  font-size: 19px;
+  left: 28%;
+  top: 66%; }
+
+.address {
+  font-size: 18px;
+  left: 16%;
+  top: 69%; }
+
+.rsvp,
+.contact {
+  position: absolute;
+  z-index: 10;
+  display: inline; }
+
+.rsvp {
+  font-size: 19px;
+  left: 25%;
+  top: 74%; }
+
+.contact {
+  font-size: 18px;
+  left: 15%;
+  top: 77%; }
+
+.registry,
+.amazon {
+  position: absolute;
+  z-index: 10;
+  display: inline; }
+
+.registry {
+  font-size: 19px;
+  left: 32%;
+  top: 82%; }
+
+.amazon {
+  color: #f96a05;
+  text-decoration: none;
+  font-size: 18px;
+  left: 30%;
+  top: 86%; }
+  .amazon:hover {
+    cursor: pointer;
+    color: #616161;
+    animation: fadeAmazon 1s forwards; }
+
+.pumpkin-text,
+.join,
+.honoring,
+.and,
+.date,
 .time,
-.residence,
+.where,
 .address,
 .rsvp,
 .contact,
-.registration,
-.link {
-  color: #a79780;
-  font-family: 'Forum', cursive;
-  font-size: 20px;
-  position: relative; }
+.registry {
+  color: #616161; }
 
-.link:hover {
-  color: #dc7633; }
-
-.link {
-  position: relative;
-  top: 30px;
-  display: inline; }
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   body, html {
-    overflow: hidden;
-    bottom: 0; }
-
-  .chevron-bg {
-    width: 100%;
-    display: none; }
-
-<<<<<<< HEAD
-  body {
-    height: 1655px; }
-
-  .container {
-    border: 3px solid blue;
-=======
-  .invite-card {
-    position: absolute;
-    z-index: 1;
-    top: 5%;
-    min-height: 90%;
+    min-height: 100%;
     width: 100%; }
 
-  .white-line {
-    z-index: 2;
-    margin: 0 auto;
->>>>>>> 386d4065947033202e30848644ba0bd2a3b99274
-    position: relative;
-    top: 30%;
-    width: 100%;
-    height: 33%;
-    background-color: #fff; }
-
-  .orange-dotted {
-    z-index: 2;
-    position: relative;
-    top: 5%;
-    width: 100%;
-    height: 90%;
-    background-image: url("../img/orange-dotted.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #e2d7c5; }
-
-  .brown-rectangle {
-    z-index: 3;
-    position: relative;
-    top: 11%;
-    width: 100%;
-    height: 75%;
-    background-color: #a69784; }
-
-  .mobile-front-plate {
-    position: absolute;
-    bottom: 0;
-    z-index: 5;
-    width: 100%;
-    height: 100%; }
-
-  .front-plate-cont {
+  .background1 {
     display: none; }
 
-  /*  .front-plate {
-        width: 100%;
-        height: 100%;
+  .background2 {
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    min-height: 100% !important; }
 
-    }*/ }
-/*@media only screen 
-and (min-device-width: 768) 
-and (-webkit-min-device-pixel-ratio: 2) {
-	
-	
+  .white-board {
+    height: 540px !important; }
 
-<<<<<<< HEAD
-  .address, .contact {
-    font-size: 16px; } }
-@media only screen and (max-device-width: 1031px) and (-webkit-min-device-pixel-ratio: 2) {
-  .chevron-bg {
-    display: none; }
+  .orange-dots {
+    top: 5% !important;
+    height: 483px !important; }
 
-  .invite-card {
-    	/*-webkit-box-shadow: 0 0 20px #000;
-        box-shadow: 0 0 20px #000;
-    	margin: 0 auto;
-    	position: relative;
-    	top: 115px;*/
-    width: 55%;
-    /*	height: 608px;
-    	background-image: url("../img/chevron-pattern.png");
-    	background-repeat: no-repeat;
-    	background-size: cover;
-    	background-color: rgb(226, 215, 197);*/ } }
-=======
-}*/
->>>>>>> 386d4065947033202e30848644ba0bd2a3b99274
+  .brown-board {
+    height: 366px !important; }
+
+  .border {
+    left: 0 !important;
+    width: 100% !important; }
+
+  .pumpkin-logo {
+    height: 11% !important;
+    left: 66% !important; }
+
+  .little {
+    font-size: 70px !important;
+    left: 13% !important; }
+
+  .pumpkin-text {
+    font-size: 111px !important;
+    top: 14% !important;
+    letter-spacing: 10px; }
+
+  .the-way {
+    font-size: 63px !important;
+    top: 20% !important; }
+
+  .join {
+    top: 27% !important;
+    font-size: 37px !important;
+    left: 16% !important; }
+
+  .honoring {
+    top: 30% !important;
+    font-size: 37px !important; }
+
+  .line1,
+  .line2 {
+    top: 31% !important; }
+
+  .sam,
+  .britt {
+    font-size: 90px !important; }
+
+  .britt {
+    top: 33% !important; }
+
+  .and {
+    top: 39% !important;
+    left: 48% !important;
+    font-size: 78px !important; }
+
+  .sam {
+    top: 44% !important; }
+
+  .date {
+    font-size: 50px !important;
+    left: 18% !important;
+    top: 51% !important; }
+
+  .time {
+    font-size: 40px !important;
+    left: 35% !important;
+    top: 55% !important; }
+
+  .where {
+    font-size: 50px !important;
+    left: 24% !important;
+    top: 60% !important; }
+
+  .address {
+    font-size: 40px !important;
+    left: 18% !important;
+    top: 64% !important; }
+
+  .rsvp {
+    font-size: 50px !important;
+    left: 20% !important;
+    top: 70% !important; }
+
+  .contact {
+    font-size: 40px !important;
+    left: 14% !important;
+    top: 74% !important; }
+
+  .registry {
+    font-size: 50px !important;
+    left: 27% !important;
+    top: 80% !important; }
+
+  .amazon {
+    font-size: 59px !important;
+    left: 21% !important;
+    top: 84% !important; } }
 
 /*# sourceMappingURL=style.css.map */
