@@ -250,7 +250,7 @@ body {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   body, html {
-    min-height: 625px;
+    min-height: 100%;
     width: 100%; }
 
   .background1 {
