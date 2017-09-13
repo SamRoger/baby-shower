@@ -4,7 +4,7 @@
   to {
     color: #ddd5c8; } }
 html, body {
-  min-height: 100%;
+  min-height: 625px;
   width: 100%; }
 
 body {
