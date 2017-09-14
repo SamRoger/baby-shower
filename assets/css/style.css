@@ -37,6 +37,16 @@
     opacity: 0; }
   to {
     opacity: 1; } }
+@keyframes topDown {
+  from {
+    top: -27%; }
+  to {
+    top: 8%; } }
+@keyframes leftRight {
+  from {
+    left: -111%; }
+  to {
+    left: 32%; } }
 html, body {
   min-height: 100%;
   width: 100%; }
@@ -50,6 +60,8 @@ body {
   background-image: url("../img/wood-bg.jpg"); }
 
 .background1 {
+  border-radius: 10px;
+  opacity: 0;
   transform: rotate(12deg);
   position: absolute;
   top: 70px;
@@ -61,6 +73,8 @@ body {
   background-image: url("../img/chevron-pattern.png"); }
 
 .background2 {
+  border-radius: 10px;
+  opacity: 0;
   position: relative;
   margin: 0 auto;
   top: 78px;
@@ -113,7 +127,7 @@ body {
 
 .pumpkin-logo {
   position: absolute;
-  top: 8%;
+  top: -27%;
   left: 62%;
   z-index: 1;
   width: 19%;
@@ -137,7 +151,7 @@ body {
   top: 24%;
   z-index: 10;
   font-size: 31px;
-  left: 32%; }
+  left: -111%; }
 
 .join {
   display: inline;

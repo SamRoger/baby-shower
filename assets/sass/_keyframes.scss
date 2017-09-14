@@ -6,3 +6,11 @@
 	from { opacity: 0; }
 	to { opacity: 1; }
 }
+@keyframes topDown{
+	from { top: -27%; }
+	to { top: 8%; }
+}
+@keyframes leftRight{
+	from { left: -111%; }
+	to { left: 32%; }
+}
