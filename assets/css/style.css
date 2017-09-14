@@ -1,32 +1,6 @@
-@media only screen and (max-width: 760px) {
-  /*    .background1{
-      	left: 32% !important;
-      	width: 2px !important;
-  		transform: none !important;
-      }   
-      .background2{
-  		transform: none !important;
-      }
-  }
-  @media only screen and (max-width: 570px) {
-  	.background1{
-  		left: 39% !important;
-  	}
-  }
-  @media only screen and (max-width: 517px) {
-  	.background1{
-  		left: 43% !important;
-  	}
-  }
-  @media only screen and (max-width: 483px) {
-  	.background1{
-  		left: 46% !important;
-  	}
-  }
-  @media only screen and (max-width: 468px) {
-  	.background1{
-  		left: 48% !important;
-  	}*/ }
+@media only screen and (max-width: 832px) {
+  .background1 {
+    animation: cardFadeOut 2s forwards !important; } }
 @keyframes fadeAmazon {
   from {
     color: #f96a05; }
@@ -37,6 +11,11 @@
     opacity: 0; }
   to {
     opacity: 1; } }
+@keyframes cardFadeOut {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
 @keyframes topDown {
   from {
     top: -27%; }
@@ -116,13 +95,13 @@ body {
   font-family: "janda";
   src: url("../fonts/jandaAppleCobbler.ttf"); }
 .little {
+  font-family: 'Lakki Reddy', cursive;
   color: #f96a05;
   display: inline;
-  font-family: janda;
   position: absolute;
   top: 8%;
   z-index: 10;
-  font-size: 27px;
+  font-size: 32px;
   left: 16%; }
 
 .pumpkin-logo {
@@ -144,13 +123,16 @@ body {
   letter-spacing: 4px; }
 
 .the-way {
+  -webkit-animation-delay: 0s, .5s;
+  -webkit-animation-duration: 2s, .5s;
+  -webkit-animation-name: leftRight, cardFadeIn;
+  font-family: 'Lakki Reddy', cursive;
   color: #f96a05;
-  font-family: janda;
   display: inline;
   position: absolute;
   top: 24%;
   z-index: 10;
-  font-size: 31px;
+  font-size: 33px;
   left: -111%; }
 
 .join {
