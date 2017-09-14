@@ -126,6 +126,7 @@ body {
   -webkit-animation-delay: 0s, .5s;
   -webkit-animation-duration: 2s, .5s;
   -webkit-animation-name: leftRight, cardFadeIn;
+  -webkit-animation-timing-function: forwards;
   font-family: 'Lakki Reddy', cursive, Times, serif;
   color: #f96a05;
   display: inline;
