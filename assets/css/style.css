@@ -25,7 +25,7 @@
   from {
     left: -111%; }
   to {
-    left: 32%; } }
+    left: 33%; } }
 html, body {
   min-height: 100%;
   width: 100%; }
@@ -173,7 +173,7 @@ body {
   font-size: 40px; }
 
 .sam {
-  left: 25%;
+  left: 26%;
   top: 50%; }
 
 .britt {
@@ -427,7 +427,7 @@ body {
 
   .the-way {
     font-size: 55px !important;
-    top: 21% !important; }
+    top: 22% !important; }
 
   .join {
     top: 27% !important;
@@ -497,6 +497,9 @@ body {
   .amazon {
     font-size: 55px !important;
     left: 23% !important;
-    top: 84% !important; } }
+    top: 84% !important; }
+
+  .white-board {
+    top: 27% !important; } }
 
 /*# sourceMappingURL=style.css.map */
