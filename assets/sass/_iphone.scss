@@ -4,15 +4,16 @@ and (max-device-width : 667px) {
 	body,html{
 		min-height: 100%;
 		width: 100%;
+		overflow: hidden;
 	}
 	.background1{
 		display: none;
 	}
 	.background2{
-		left: 0 !important;
-		top: 65px !important;
+		/*left: 0 !important;*/
+		top: 0 !important;
 		width: 100% !important;
-		min-height: 1550px !important;
+		min-height: 1744px !important;
 	}
 	.white-board{
 		height: 540px !important;
