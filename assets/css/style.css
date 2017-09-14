@@ -1,11 +1,45 @@
+@media only screen and (max-width: 760px) {
+  /*    .background1{
+      	left: 32% !important;
+      	width: 2px !important;
+  		transform: none !important;
+      }   
+      .background2{
+  		transform: none !important;
+      }
+  }
+  @media only screen and (max-width: 570px) {
+  	.background1{
+  		left: 39% !important;
+  	}
+  }
+  @media only screen and (max-width: 517px) {
+  	.background1{
+  		left: 43% !important;
+  	}
+  }
+  @media only screen and (max-width: 483px) {
+  	.background1{
+  		left: 46% !important;
+  	}
+  }
+  @media only screen and (max-width: 468px) {
+  	.background1{
+  		left: 48% !important;
+  	}*/ }
 @keyframes fadeAmazon {
   from {
     color: #f96a05; }
   to {
     color: #ddd5c8; } }
+@keyframes cardFadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 html, body {
-  /*min-height: 100%;*/
-  /*width: 100%;*/ }
+  min-height: 100%;
+  width: 100%; }
 
 body {
   margin: 0;
@@ -17,9 +51,9 @@ body {
 
 .background1 {
   transform: rotate(12deg);
-  position: relative;
+  position: absolute;
   top: 70px;
-  margin: 0 auto;
+  left: 39%;
   -webkit-box-shadow: 0 0 10px #000;
   box-shadow: 0 0 10px #000;
   width: 450px;
@@ -27,9 +61,9 @@ body {
   background-image: url("../img/chevron-pattern.png"); }
 
 .background2 {
-  position: absolute;
-  left: 30%;
-  top: 70px;
+  position: relative;
+  margin: 0 auto;
+  top: 78px;
   -webkit-box-shadow: 0 0 10px #000;
   box-shadow: 0 0 10px #000;
   width: 450px;
@@ -253,7 +287,7 @@ body {
     left: 0 !important;
     top: 0 !important;
     width: 100% !important;
-    min-height: 100% !important; }
+    min-height: 1743px !important; }
 
   .white-board {
     height: 540px !important; }
@@ -352,6 +386,119 @@ body {
   .amazon {
     font-size: 59px !important;
     left: 21% !important;
+    top: 84% !important; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  html, body {
+    min-height: 100%; }
+
+  .background1 {
+    display: none !important; }
+
+  .background2 {
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    min-height: 1306px !important; }
+
+  .white-board {
+    height: 540px !important; }
+
+  .orange-dots {
+    top: 5% !important;
+    height: 483px !important; }
+
+  .brown-board {
+    height: 366px !important; }
+
+  .border {
+    left: 0 !important;
+    width: 100% !important; }
+
+  .pumpkin-logo {
+    height: 14% !important;
+    left: 63% !important; }
+
+  .little {
+    font-size: 65px !important;
+    left: 13% !important; }
+
+  .pumpkin-text {
+    font-size: 96px !important;
+    top: 15% !important;
+    letter-spacing: 10px; }
+
+  .the-way {
+    font-size: 55px !important;
+    top: 21% !important; }
+
+  .join {
+    top: 27% !important;
+    font-size: 34px !important;
+    left: 18% !important; }
+
+  .honoring {
+    top: 30% !important;
+    font-size: 34px !important; }
+
+  .line1,
+  .line2 {
+    top: 31% !important; }
+
+  .sam,
+  .britt {
+    font-size: 86px !important; }
+
+  .britt {
+    left: 23%;
+    top: 33% !important; }
+
+  .and {
+    top: 39% !important;
+    left: 48% !important;
+    font-size: 74px !important; }
+
+  .sam {
+    left: 26% !important;
+    top: 44% !important; }
+
+  .date {
+    font-size: 46px !important;
+    left: 20% !important;
+    top: 51% !important; }
+
+  .time {
+    font-size: 36px !important;
+    left: 37% !important;
+    top: 55% !important; }
+
+  .where {
+    font-size: 46px !important;
+    left: 25% !important;
+    top: 60% !important; }
+
+  .address {
+    font-size: 36px !important;
+    left: 19% !important;
+    top: 64% !important; }
+
+  .rsvp {
+    font-size: 46px !important;
+    left: 22% !important;
+    top: 70% !important; }
+
+  .contact {
+    font-size: 36px !important;
+    left: 17% !important;
+    top: 74% !important; }
+
+  .registry {
+    font-size: 46px !important;
+    left: 29% !important;
+    top: 80% !important; }
+
+  .amazon {
+    font-size: 55px !important;
+    left: 23% !important;
     top: 84% !important; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -2,3 +2,7 @@
 	from { color: rgb(249,106,5) };
 	to { color: rgb(221,213,200); }
 }
+@keyframes cardFadeIn{
+	from { opacity: 0; }
+	to { opacity: 1; }
+}

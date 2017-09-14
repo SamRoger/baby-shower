@@ -1,6 +1,6 @@
 html, body{
-	/*min-height: 100%;*/
-	/*width: 100%;*/
+	min-height: 100%;
+	width: 100%;
 }
 
 body{
@@ -14,9 +14,9 @@ body{
 
 .background1{
 	transform: rotate(12deg);
-	position: relative;
+	position: absolute;
 	top: 70px;
-	margin: 0 auto;
+	left: 39%;
 	-webkit-box-shadow: 0 0 10px #000;
     box-shadow: 0 0 10px #000;
 	width: 450px;
@@ -25,9 +25,9 @@ body{
 }
 
 .background2{
-	position: absolute;
-	left: 30%;
-	top: 70px;
+	position: relative;
+	margin: 0 auto;
+	top: 78px;
 	-webkit-box-shadow: 0 0 10px #000;
     box-shadow: 0 0 10px #000;
 	width: 450px;
