@@ -12,6 +12,7 @@ var girlContainer = document.getElementsByClassName("girlContainer")[0];
 var container = document.getElementsByClassName("container")[0];
 var amazon = document.getElementsByClassName("amazon")[0];
 var experience = document.getElementsByClassName("experience")[0];
+var okay = document.getElementsByClassName("okay")[0];
 
 // window.onload = function(){
 // 	background1.style.animation = "cardFadeIn 8s forwards";
@@ -51,7 +52,8 @@ setTimeout(function(){
 
 
 experience.addEventListener("click", function(){
-	experience.style.display = "none";
+	experience.style.animation = "cardFadeOut 1s forwards"
+	console.log("hi")
 })
 
 
