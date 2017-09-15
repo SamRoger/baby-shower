@@ -11,6 +11,7 @@ var boyContainer = document.getElementsByClassName("boyContainer")[0];
 var girlContainer = document.getElementsByClassName("girlContainer")[0];
 var container = document.getElementsByClassName("container")[0];
 var amazon = document.getElementsByClassName("amazon")[0];
+var experience = document.getElementsByClassName("experience")[0];
 
 // window.onload = function(){
 // 	background1.style.animation = "cardFadeIn 8s forwards";
@@ -47,6 +48,12 @@ setTimeout(function(){
 setTimeout(function(){
 	amazon.classList.add("swing");
 },12000)
+
+
+experience.addEventListener("click", function(){
+	experience.style.display = "none";
+})
+
 
 
 

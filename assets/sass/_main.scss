@@ -339,7 +339,13 @@ body{
 }
 
 .desktopHide{
-	
+	position: absolute;
+	z-index: 10;
+}
+
+.okay{
+	position: absolute;
+	z-index: 10;
 }
 
 
