@@ -47,7 +47,8 @@ setTimeout(function(){
 },8500)
 
 setTimeout(function(){
-	amazon.classList.add("swing");
+	amazon.classList.add("bounceInUp");
+	amazon.style.opacity = "1"
 },12000)
 
 
