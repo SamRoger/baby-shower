@@ -121,6 +121,13 @@ and (max-device-width : 667px) {
 	.amazon{
 		display: none;
 	}
+	.boy,
+	.girl{
+		display: none;
+	}
+	.container{
+		animation: cardFadeIn 1s forwards !important;
+	}
 }
 
 
