@@ -88,6 +88,12 @@ body{
 }
 
 .pumpkin-logo{
+	-webkit-animation-name: topDown;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 1.5s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+
 	position: absolute;
     top: -27%;
     left: 62%;
@@ -108,12 +114,12 @@ body{
 }
 
 .the-way{
-
-    -webkit-animation-delay: 0s, .5s;
-    -webkit-animation-duration: 2s, .5s;
-    -webkit-animation-name: leftRight, cardFadeIn;
-    -webkit-animation-timing-function: forwards;
-
+	opacity: 0;
+     -webkit-animation-name: cardFadeIn, leftRight;
+     -webkit-animation-duration: 2s, 3s;
+     -webkit-animation-delay: 2.25s, 1.5s;
+     // -webkit-animation-timing-function: ease;
+     -webkit-animation-fill-mode: forwards, forwards;
 
 	font-family: 'Lakki Reddy', cursive, Times, serif;;
 	color: rgb(249,106,5);
@@ -122,7 +128,7 @@ body{
     top: 24%;
     z-index: 10;
     font-size: 33px;
-    left: -111%;
+    left: 35%;
 }
 
 .join{
@@ -167,7 +173,7 @@ body{
 }
 
 .sam{
-	left: 26%;
+	left: 25%;
     top: 50%;
 }
 
@@ -257,11 +263,11 @@ body{
 }
 
 .amazon{
-	color: rgb(249,106,5);
-	text-decoration: none;
-	font-size: 18px;
-	left: 30%;
-    top: 86%;
+	color: #f96a05;
+    text-decoration: none;
+    font-size: 24px;
+    left: 20%;
+    top: 84%;
     &:hover{
     	cursor: pointer;
 		color: rgb(97, 97, 97);
@@ -282,6 +288,10 @@ body{
 .registry,
 {
 	color: rgb(97, 97, 97);
+}
+
+.mediaAmazon2{
+	display: none !important;
 }
 
 

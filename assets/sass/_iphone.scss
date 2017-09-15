@@ -109,12 +109,18 @@ and (max-device-width : 667px) {
     	left: 27% !important;
     	top: 80% !important;
 	}
-	.amazon{
-    	font-size: 59px !important;
-    	left: 21% !important;
-    	top: 84% !important;
+	.mediaAmazon2{
+	   display: block !important;
+	   position: absolute !important;
+	   z-index: 10 !important;
+	   color: #f96a05 !important;
+	   left: 11% !important;
+	   top: 1415px !important;
+	   font-size: 70px !important;
 	}
-
+	.amazon{
+		display: none;
+	}
 }
 
 
