@@ -28,6 +28,10 @@ and (max-device-width : 1024px) {
 		width: 100% !important;
 	}
 	.pumpkin-logo{
+		-webkit-animation-name: topDown;
+ 	    -webkit-animation-duration: 1s;
+   	    -webkit-animation-delay: .5s;
+        -webkit-animation-fill-mode: forwards;
 		height: 14% !important; 
 		left: 63% !important;
 	}
@@ -41,6 +45,12 @@ and (max-device-width : 1024px) {
 		letter-spacing: 10px;
 	}
 	.the-way{
+		opacity: 0 !important;
+	    -webkit-animation-name: cardFadeIn, leftRight !important;
+	    -webkit-animation-duration: 2s, 2s !important;
+	    -webkit-animation-delay: 1s, 1.5s !important;
+	    -webkit-animation-timing-function: ease !important;
+	    -webkit-animation-fill-mode: forwards, forwards !important;
 		font-size: 55px !important;
 		top: 22% !important;
 	}

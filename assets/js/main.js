@@ -6,7 +6,6 @@ $("document").ready(function(){
 var background1 = document.getElementsByClassName("background1")[0];
 var background2 = document.getElementsByClassName("background2")[0];
 var pumpkin = document.getElementsByClassName("pumpkin-logo")[0];
-var theWay = document.getElementsByClassName("the-way")[0];
 var mediaAmazon2 = document.getElementsByClassName("mediaAmazon2")[0];
 var boyContainer = document.getElementsByClassName("boyContainer")[0];
 var girlContainer = document.getElementsByClassName("girlContainer")[0];
