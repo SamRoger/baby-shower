@@ -326,10 +326,13 @@ body{
     color: #f96a05;
     font-size: 110px;
     position: relative;
-    left: 15%;
+    left: 9%;
     top: 300px;
 	padding-left: 25px;
 	display: inline;
+}
+.boyContainer{
+	position: relative;
 }
 
 .girlContainer{
@@ -343,11 +346,10 @@ body{
 	z-index: 10;
 }
 
-.okay{
-	position: absolute;
-	z-index: 10;
+.okay,
+.experience{
+	display: none;
 }
-
 
 
 

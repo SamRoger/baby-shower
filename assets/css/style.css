@@ -1,6 +1,43 @@
-@media only screen and (max-width: 832px) {
+@media only screen and (max-width: 1154px) {
+  .background2 {
+    bottom: 461px !important; } }
+@media only screen and (max-width: 1011px) {
+  .background2 {
+    bottom: 643px !important; } }
+@media only screen and (max-width: 605px) {
+  .background2 {
+    bottom: 827px !important; }
+
   .background1 {
-    animation: cardFadeOut 2s forwards !important; } }
+    animation: cardFadeOut 1s forwards !important; } }
+@media only screen and (max-width: 547px) {
+  .background2 {
+    bottom: 1012px !important; } }
+@media only screen and (max-width: 760px) {
+  .background1 {
+    animation: cardFadeOut 1s forwards !important; } }
+@media only screen and (min-width: 760px) {
+  .background1 {
+    animation: cardFadeIn 1s forwards !important; } }
+@media only screen and (max-width: 446px) {
+  .background2 {
+    bottom: 1195px !important; } }
+@media only screen and (max-width: 443px) {
+  .background2 {
+    bottom: 1379px !important; } }
+@media only screen and (max-width: 345px) {
+  .background2 {
+    bottom: 1564px !important; } }
+@media only screen and (max-width: 1155px) {
+  .boy,
+  .girl {
+    top: 362px !important; } }
+@media only screen and (max-width: 1010px) {
+  .boy {
+    top: 423px !important; } }
+@media only screen and (max-width: 1010px) {
+  .girlContainer {
+    bottom: 308px !important; } }
 @keyframes fadeAmazon {
   from {
     color: #f96a05; }
@@ -310,10 +347,13 @@ body {
   color: #f96a05;
   font-size: 110px;
   position: relative;
-  left: 15%;
+  left: 9%;
   top: 300px;
   padding-left: 25px;
   display: inline; }
+
+.boyContainer {
+  position: relative; }
 
 .girlContainer {
   opacity: 0;
@@ -324,9 +364,9 @@ body {
   position: absolute;
   z-index: 10; }
 
-.okay {
-  position: absolute;
-  z-index: 10; }
+.okay,
+.experience {
+  display: none; }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   body, html {
