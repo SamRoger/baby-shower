@@ -330,8 +330,7 @@ body {
     display: none; }
 
   .background2 {
-    /*left: 0 !important;*/
-    top: 0 !important;
+    bottom: 18px !important;
     width: 100% !important;
     min-height: 1744px !important; }
 
@@ -466,7 +465,7 @@ body {
 
   .background2 {
     left: 0 !important;
-    top: 0 !important;
+    bottom: 18px !important;
     width: 100% !important;
     min-height: 1306px !important; }
 
