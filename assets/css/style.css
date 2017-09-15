@@ -506,16 +506,18 @@ body {
     animation: cardFadeIn 1s forwards !important; }
 
   .experience {
+    text-shadow: 1px 1px 2px #000;
     box-shadow: 1px 1px 2px black;
     position: absolute;
     padding-top: 57px;
     z-index: 10;
     font-size: 74px;
     top: 25%;
+    left: 5%;
     background-color: #dcd4c7;
     /* padding: 60px; */
     height: 450px;
-    width: 100%;
+    width: 90%;
     text-align: center;
     color: #f96a05; }
 
@@ -531,7 +533,12 @@ body {
 
   .experience,
   .okay {
-    display: block !important; } }
+    display: block !important; }
+
+  .expText {
+    margin: 0 auto;
+    width: 80%;
+    position: relative; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   html, body {
     min-height: 100%; }
@@ -679,16 +686,18 @@ body {
     animation: cardFadeIn 1s forwards !important; }
 
   .experience {
+    text-shadow: 1px 1px 2px #000;
     box-shadow: 1px 1px 2px black;
     position: absolute;
     padding-top: 57px;
     z-index: 10;
     font-size: 74px;
     top: 25%;
+    left: 5%;
     background-color: #dcd4c7;
     /* padding: 60px; */
     height: 450px;
-    width: 100%;
+    width: 90%;
     text-align: center;
     color: #f96a05; }
 
@@ -704,6 +713,11 @@ body {
 
   .experience,
   .okay {
-    display: block !important; } }
+    display: block !important; }
+
+  .expText {
+    margin: 0 auto;
+    width: 80%;
+    position: relative; } }
 
 /*# sourceMappingURL=style.css.map */
