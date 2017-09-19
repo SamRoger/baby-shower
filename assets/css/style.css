@@ -532,16 +532,7 @@ body {
     top: 52%;
     background-color: #000;
     padding: 60px;
-    border-radius: 33px; }
-
-  .experience,
-  .okay {
-    display: block !important; }
-
-  .expText {
-    margin: 0 auto;
-    width: 80%;
-    position: relative; } }
+    border-radius: 33px; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   html, body {
     min-height: 100%; }
@@ -713,15 +704,6 @@ body {
     top: 52%;
     background-color: #000;
     padding: 60px;
-    border-radius: 33px; }
-
-  .experience,
-  .okay {
-    display: block !important; }
-
-  .expText {
-    margin: 0 auto;
-    width: 80%;
-    position: relative; } }
+    border-radius: 33px; } }
 
 /*# sourceMappingURL=style.css.map */
