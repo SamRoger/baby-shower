@@ -57,24 +57,15 @@ experience.addEventListener("click", function(){
 	console.log("hi")
 })
 
-function msieversion() 
+
+
+
+
+
+if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/)) || (typeof $.browser !== "undefined" && $.browser.msie == 1))
 {
-    var ua = window.navigator.userAgent;
-    var msie = ua.indexOf("MSIE ");
-
-    if (msie > 0) // If Internet Explorer, return version number
-    {
-        alert(parseInt(ua.substring(msie + 5, ua.indexOf(".", msie))));
-        alert("internet Explorer")
-    }
-    else  // If another browser, return 0
-    {
-        alert('otherbrowser');
-    }
-
-    return false;
+  alert("Please dont use IE.");
 }
-
 
 
 
