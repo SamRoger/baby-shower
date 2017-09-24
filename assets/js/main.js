@@ -70,7 +70,7 @@ if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgen
   var ieBlock = document.getElementsByClassName("ieBlock")[0];
   var body = document.getElementsByClassName("body")[0]
   ieBlock.style.display = "none"
-  body.style.backgroundImage = "none"
+  body.style.backgroundImage = "url('')"
   alert("This Site Is Not Supported By Internet Explorer. Please Use, Chrome, FireFox Or Edge")
 }
 
