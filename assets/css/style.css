@@ -505,7 +505,7 @@ body {
     display: none; }
 
   .container {
-    animation: cardFadeIn 1s forwards !important; }
+    -webkit-animation: cardFadeIn 1s forwards !important; }
 
   .experience {
     text-shadow: 1px 1px 2px #000;
