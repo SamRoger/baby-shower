@@ -79,14 +79,14 @@ body {
   opacity: 0; }
 
 .background1 {
-  filter: alpha(opacity=30);
+  filter: alpha(opacity=0);
   -webkit-animation-name: cardFadeIn;
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: 8s;
   -webkit-animation-fill-mode: forwards;
   z-index: -100;
   border-radius: 10px;
-  opacity: 0 !important;
+  opacity: 0;
   transform: rotate(12deg);
   position: absolute;
   top: 70px;
