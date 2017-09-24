@@ -60,6 +60,10 @@ experience.addEventListener("click", function(){
 
 
 
+if (document.documentMode || /Edge/.test(navigator.userAgent)) {
+    var background1 = document.getElementsByClassName("background1")[0];
+    background1.style.display = "none"
+}
 
 
 if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/)) || (typeof $.browser !== "undefined" && $.browser.msie == 1)){
@@ -70,9 +74,6 @@ if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgen
   alert("This Site Is Not Supported By Internet Explorer. Please Use, Chrome, FireFox Or Edge")
 }
 
-if (document.documentMode || /Edge/.test(navigator.userAgent)) {
-    alert('Hello Microsoft User!');
-}
 
 
 
