@@ -87,7 +87,6 @@ body {
   z-index: -100;
   border-radius: 10px;
   opacity: 0;
-  display: none;
   transform: rotate(12deg);
   position: absolute;
   top: 70px;
