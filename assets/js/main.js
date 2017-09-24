@@ -70,7 +70,7 @@ if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgen
   var ieBlock = document.getElementsByClassName("ieBlock")[0];
   var body = document.getElementsByClassName("body")[0]
   ieBlock.style.display = "none"
-  body.style.backgroundImage = "url('')"
+  body.style.backgroundImage = "url('https://www.ford.com/cmslibs/content/dam/brand_ford/en_us/brand/legacy/nameplate/cars/18_mst_segment_landing_32.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg')"
   alert("This Site Is Not Supported By Internet Explorer. Please Use, Chrome, FireFox Or Edge")
 }
 
