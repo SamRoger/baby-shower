@@ -65,6 +65,7 @@ function msieversion()
     if (msie > 0) // If Internet Explorer, return version number
     {
         alert(parseInt(ua.substring(msie + 5, ua.indexOf(".", msie))));
+        alert("internet Explorer")
     }
     else  // If another browser, return 0
     {
