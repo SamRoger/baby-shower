@@ -79,11 +79,7 @@ body {
   opacity: 0; }
 
 .background1 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=50);
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
+  filter: alpha(opacity=30);
   -webkit-animation-name: cardFadeIn;
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: 8s;
