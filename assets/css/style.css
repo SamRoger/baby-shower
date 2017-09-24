@@ -83,6 +83,7 @@ body {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: 8s;
   -webkit-animation-fill-mode: forwards;
+  z-index: -100;
   border-radius: 10px;
   opacity: 0;
   transform: rotate(12deg);
@@ -100,7 +101,6 @@ body {
       -webkit-animation-duration: 1ss;
       -webkit-animation-delay: 8s;
       -webkit-animation-fill-mode: forwards;*/
-  z-index: -100;
   border-radius: 10px;
   /*opacity: 0;*/
   position: relative;
