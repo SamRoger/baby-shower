@@ -64,7 +64,9 @@ experience.addEventListener("click", function(){
 
 if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/)) || (typeof $.browser !== "undefined" && $.browser.msie == 1)){
   var ieBlock = document.getElementsByClassName("ieBlock")[0];
+  var body = document.getElementsByClassName("body")[0]
   ieBlock.style.display = "none"
+  body.style.display = "none"
   alert("This Site Is Not Supported By Internet Explorer. Please Use, Chrome, FireFox Or Edge")
 }
 
