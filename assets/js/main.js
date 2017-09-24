@@ -70,7 +70,9 @@ if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgen
   alert("This Site Is Not Supported By Internet Explorer. Please Use, Chrome, FireFox Or Edge")
 }
 
-
+if (document.documentMode || /Edge/.test(navigator.userAgent)) {
+    alert('Hello Microsoft User!');
+}
 
 
 
