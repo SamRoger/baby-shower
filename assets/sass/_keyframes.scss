@@ -18,7 +18,7 @@
 	from { left: 0; }
 	to { left: 35%; }
 }
-@keyframes scale{
-	from { transform: scale(1); }
-	to { transform: scale(0.9); }
+@keyframes scaleGlow{
+	0% { transform: scale(1); }
+	100% { transform: scale(1.05); }
 }
