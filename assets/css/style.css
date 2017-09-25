@@ -547,6 +547,10 @@ body {
     display: none !important; }
 
   .background2 {
+    -webkit-animation-name: cardFadeIn !important;
+    -webkit-animation-duration: 1s !important;
+    -webkit-animation-delay: 0s !important;
+    -webkit-animation-fill-mode: forwards !important;
     left: 0 !important;
     bottom: 18px !important;
     width: 100% !important;
