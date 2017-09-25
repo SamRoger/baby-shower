@@ -63,6 +63,11 @@
     left: 0; }
   to {
     left: 35%; } }
+@keyframes scale {
+  from {
+    transform: scale(1); }
+  to {
+    transform: scale(0.9); } }
 html, body {
   min-height: 100%;
   width: 100%; }
@@ -97,9 +102,10 @@ body {
   background-image: url("../img/chevron-pattern.png"); }
 
 .background2 {
+  transform: scale(1);
   -webkit-animation-name: cardFadeIn;
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 8s;
+  -webkit-animation-delay: 0s;
   -webkit-animation-fill-mode: forwards;
   border-radius: 10px;
   opacity: 0;
