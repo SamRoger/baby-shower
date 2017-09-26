@@ -102,11 +102,11 @@ body{
 }
 
 .pumpkin-logo{
-	-webkit-animation-name: topDown;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-delay: 9s;
-    -webkit-animation-timing-function: ease;
-    -webkit-animation-fill-mode: forwards;
+	-webkit-animation-name: topDown, rotate;
+    -webkit-animation-duration: 1s, 1s;
+    -webkit-animation-delay: 9s, 9s;
+    -webkit-animation-timing-function: ease, ease;
+    -webkit-animation-fill-mode: forwards, forwards;
 
 	position: absolute;
     top: -27%;
