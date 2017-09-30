@@ -386,7 +386,7 @@ body {
 .experience {
   display: none; }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
   body, html {
     min-height: 100%;
     width: 100%;
