@@ -1,174 +1,180 @@
-@media only screen and (min-device-width: 360px) and (max-device-width: 374px) and (max-device-width: 640px) and (orientation: portrait) {
-  body, html {
-    min-height: 100%;
-    width: 100%;
-    overflow: hidden; }
+/*@media only screen
+and (min-device-width : 360px)
+and (max-device-width : 640px)
+and (orientation: portrait) {
+	
+	body,html{
+		min-height: 100%;
+		width: 100%;
+		overflow: hidden;
+	}
+	.background1{
+		display: none;
+	}
+	.background2{
+		-webkit-animation-name: cardFadeIn !important;
+	    -webkit-animation-duration: 1s !important;
+	    -webkit-animation-delay: 0s !important;
+	    -webkit-animation-fill-mode: forwards !important;
+		bottom: 18px !important;
+		width: 100% !important;
+		min-height: 1761px !important;
+	}
+	.white-board{
+		height: 540px !important;
+	}
+	.orange-dots{
+		top: 5% !important;
+		height: 483px !important;
+	}
+	.brown-board{
+		height: 366px !important;
+	}
+	.border{
+		left: 0 !important;
+		width: 100% !important;
+	}
+	.pumpkin-logo{
+		-webkit-animation-name: topDown !important;
+ 	    -webkit-animation-duration: 1s !important;
+   	    -webkit-animation-delay: 0s !important;
+        -webkit-animation-fill-mode: forwards !important;
+		height: 11% !important; 
+		left: 66% !important;
+	}
+	.little{
+		font-size: 70px !important;
+		left: 13% !important;
+	}
+	.pumpkin-text{
+		font-size: 111px !important;
+		top: 13% !important;
+		letter-spacing: 10px;
+	}
+	.the-way{
+		opacity: 0 !important;
+	    -webkit-animation-name: cardFadeIn, leftRight !important;
+	    -webkit-animation-duration: 2s, 2s !important;
+	    -webkit-animation-delay: 1s, 1.5s !important;
+	    -webkit-animation-timing-function: ease !important;
+	    -webkit-animation-fill-mode: forwards, forwards !important;
+		font-size: 63px !important;
+		top: 21% !important;
+	}
+	.join{
+	    top: 27% !important;
+	    font-size: 37px !important;
+	    left: 16% !important;
+	}
+	.honoring{
+		top: 30% !important;
+    	font-size: 37px !important;
+	}
+	.line1,
+	.line2{
+		top: 31% !important;
+	}
+	.sam,
+	.britt{
+		font-size: 90px !important;
+	}
+	.britt{
+		top: 33% !important;
+	}
+	.and{
+		top: 39% !important;
+    	left: 48% !important;
+    	font-size: 78px !important;
+	}
+	.sam{
+		top: 44% !important;
+	}
+	.date{
+		font-size: 50px !important;
+    	left: 18% !important;
+    	top: 51% !important;
+	}
+	.time{
+		font-size: 40px !important;
+	    left: 35% !important;
+	    top: 55% !important;
+	}
+	.where{
+		font-size: 50px !important;
+    	left: 24% !important;
+    	top: 60% !important;
+	}
+	.address{
+		font-size: 40px !important;
+    	left: 18% !important;
+    	top: 64% !important;
+	}
+	.rsvp{
+		font-size: 50px !important;
+    	left: 20% !important;
+    	top: 70% !important;
+	}
+	.contact{
+	    font-size: 40px !important;
+    	left: 14% !important;
+    	top: 74% !important;
+	}
+	.registry{
+		font-size: 50px !important;
+    	left: 27% !important;
+    	top: 80% !important;
+	}
+	.mediaAmazon2{
+	   display: block !important;
+	   position: absolute !important;
+	   z-index: 10 !important;
+	   color: #f96a05 !important;
+	   left: 11% !important;
+	   top: 1415px !important;
+	   font-size: 70px !important;
+	}
+	.amazon{
+		display: none !important;
+	}
+	.boy,
+	.girl{
+		display: none;
+	}
+	.container{
+		opacity: 1 important;
+		animation: cardFadeIn 1s forwards !important;
+		animation-delay: 0s !important;
+		position: relative;
+		bottom: 90px;
+	}
+	.experience{
+		text-shadow: 1px 1px 2px #000;
+		-webkit-box-shadow: 0 0 10px #000;
+    	box-shadow: 0 0 10px #000;
+		position: absolute;
+	    padding-top: 57px;
+	    z-index: 10;
+	    font-size: 74px;
+	    top: 25%;
+	    left: 5%;
+	    background-color: #dcd4c7;
 
-  .background1 {
-    display: none; }
-
-  .background2 {
-    -webkit-animation-name: cardFadeIn !important;
-    -webkit-animation-duration: 1s !important;
-    -webkit-animation-delay: 0s !important;
-    -webkit-animation-fill-mode: forwards !important;
-    bottom: 18px !important;
-    width: 100% !important;
-    min-height: 1761px !important; }
-
-  .white-board {
-    height: 540px !important; }
-
-  .orange-dots {
-    top: 5% !important;
-    height: 483px !important; }
-
-  .brown-board {
-    height: 366px !important; }
-
-  .border {
-    left: 0 !important;
-    width: 100% !important; }
-
-  .pumpkin-logo {
-    -webkit-animation-name: topDown !important;
-    -webkit-animation-duration: 1s !important;
-    -webkit-animation-delay: 0s !important;
-    -webkit-animation-fill-mode: forwards !important;
-    height: 11% !important;
-    left: 66% !important; }
-
-  .little {
-    font-size: 70px !important;
-    left: 13% !important; }
-
-  .pumpkin-text {
-    font-size: 111px !important;
-    top: 13% !important;
-    letter-spacing: 10px; }
-
-  .the-way {
-    opacity: 0 !important;
-    -webkit-animation-name: cardFadeIn, leftRight !important;
-    -webkit-animation-duration: 2s, 2s !important;
-    -webkit-animation-delay: 1s, 1.5s !important;
-    -webkit-animation-timing-function: ease !important;
-    -webkit-animation-fill-mode: forwards, forwards !important;
-    font-size: 63px !important;
-    top: 21% !important; }
-
-  .join {
-    top: 27% !important;
-    font-size: 37px !important;
-    left: 16% !important; }
-
-  .honoring {
-    top: 30% !important;
-    font-size: 37px !important; }
-
-  .line1,
-  .line2 {
-    top: 31% !important; }
-
-  .sam,
-  .britt {
-    font-size: 90px !important; }
-
-  .britt {
-    top: 33% !important; }
-
-  .and {
-    top: 39% !important;
-    left: 48% !important;
-    font-size: 78px !important; }
-
-  .sam {
-    top: 44% !important; }
-
-  .date {
-    font-size: 50px !important;
-    left: 18% !important;
-    top: 51% !important; }
-
-  .time {
-    font-size: 40px !important;
-    left: 35% !important;
-    top: 55% !important; }
-
-  .where {
-    font-size: 50px !important;
-    left: 24% !important;
-    top: 60% !important; }
-
-  .address {
-    font-size: 40px !important;
-    left: 18% !important;
-    top: 64% !important; }
-
-  .rsvp {
-    font-size: 50px !important;
-    left: 20% !important;
-    top: 70% !important; }
-
-  .contact {
-    font-size: 40px !important;
-    left: 14% !important;
-    top: 74% !important; }
-
-  .registry {
-    font-size: 50px !important;
-    left: 27% !important;
-    top: 80% !important; }
-
-  .mediaAmazon2 {
-    display: block !important;
-    position: absolute !important;
-    z-index: 10 !important;
-    color: #f96a05 !important;
-    left: 11% !important;
-    top: 1415px !important;
-    font-size: 70px !important; }
-
-  .amazon {
-    display: none !important; }
-
-  .boy,
-  .girl {
-    display: none; }
-
-  .container {
-    opacity: 1 important;
-    animation: cardFadeIn 1s forwards !important;
-    animation-delay: 0s !important;
-    position: relative;
-    bottom: 90px; }
-
-  .experience {
-    text-shadow: 1px 1px 2px #000;
-    -webkit-box-shadow: 0 0 10px #000;
-    box-shadow: 0 0 10px #000;
-    position: absolute;
-    padding-top: 57px;
-    z-index: 10;
-    font-size: 74px;
-    top: 25%;
-    left: 5%;
-    background-color: #dcd4c7;
-    /* padding: 60px; */
-    height: 450px;
-    width: 90%;
-    text-align: center;
-    color: #f96a05; }
-
-  .okay {
-    position: absolute;
-    z-index: 10;
-    left: 37%;
-    font-size: 47px;
-    top: 52%;
-    background-color: #000;
-    padding: 60px;
-    border-radius: 33px; } }
+	    height: 450px;
+	    width: 90%;
+	    text-align: center;
+	    color: #f96a05;
+	}
+	.okay{
+		position: absolute;
+	    z-index: 10;
+	    left: 37%;
+	    font-size: 47px;
+	    top: 52%;
+	    background-color: #000;
+	    padding: 60px;
+	    border-radius: 33px;
+	}
+}*/
 @media only screen and (max-width: 1154px) {
   .background2 {
     bottom: 461px !important; } }
@@ -558,7 +564,7 @@ body {
 .experience {
   display: none; }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (orientation: portrait) {
   body, html {
     min-height: 100%;
     width: 100%;
